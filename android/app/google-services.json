@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460671955266",
+    "project_id": "aplicativo-flutter-pdm",
+    "storage_bucket": "aplicativo-flutter-pdm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460671955266:android:af5be0c35171c4809298db",
+        "android_client_info": {
+          "package_name": "com.example.aplicativo_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSvFRIL09-MSmzHOK2WdSahXqP8v0EZVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
