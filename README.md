@@ -1,10 +1,10 @@
-# 📝 Sistema de Gerenciamento de Tarefas (To-Do List)
+#  Sistema de Gerenciamento de Tarefas (To-Do List)
 
 Um aplicativo mobile para gerenciamento pessoal de tarefas diárias, desenvolvido em **Flutter** e integrado ao **Google Firebase** para autenticação e armazenamento de dados em tempo real.
 
 ---
 
-## 🚀 Funcionalidades Principais
+##  Funcionalidades Principais
 
 * **Autenticação Segura:** Cadastro de novos usuários e login com validação de e-mail e senha via *Firebase Authentication*.
 * **CRUD de Tarefas:** Criação, leitura, atualização (marcar como concluída) e exclusão de tarefas em tempo real.
@@ -13,7 +13,7 @@ Um aplicativo mobile para gerenciamento pessoal de tarefas diárias, desenvolvid
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * [Flutter](https://flutter.dev/) - SDK de desenvolvimento mobile.
 * [Dart](https://dart.dev/) - Linguagem de programação do ecossistema.
@@ -22,7 +22,7 @@ Um aplicativo mobile para gerenciamento pessoal de tarefas diárias, desenvolvid
 
 ---
 
-## 📦 Estrutura de Pastas Simples
+##  Estrutura de Pastas Simples
 
 O projeto foi organizado separando as responsabilidades de interface (`telas`), dados (`modelos`) e comunicação externa (`servicos`):
 
