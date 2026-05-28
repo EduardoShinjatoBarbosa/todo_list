@@ -24,18 +24,18 @@ Um aplicativo mobile para gerenciamento pessoal de tarefas diárias, desenvolvid
 
 ## 📦 Estrutura de Pastas Simples
 
-O projeto foi organizado separando as responsabilidades de interface (`screens`), dados (`models`) e comunicação externa (`services`):
+O projeto foi organizado separando as responsabilidades de interface (`telas`), dados (`modelos`) e comunicação externa (`servicos`):
 
 ```text
 lib/
 ├── firebase_options.dart  # Chaves de API geradas automaticamente
 ├── main.dart              # Inicialização do Firebase e ponto de partida do app
-├── models/
-│   └── tarefa_model.dart  # Molde do objeto de dados da tarefa
-├── screens/
-│   ├── login_screen.dart  # Tela de login
-│   ├── register_screen.dart # Tela de cadastro de novas contas
-│   └── home_screen.dart   # Painel com a listagem de tarefas
+├── modelos/
+│   └── task_models.dart  # Molde do objeto de dados da tarefa
+├── telas/
+│   ├── login.dart  # Tela de login
+│   ├── cadastro.dart # Tela de cadastro de novas contas
+│   └── home.dart   # Painel com a listagem de tarefas
 └── services/
-    ├── auth_service.dart  # Lógica de login/cadastro no Firebase
-    └── database_service.dart # Operações do banco de dados Cloud Firestore
+    ├── autenticacao.dart  # Lógica de login/cadastro no Firebase
+    └── bancodedados.dart # Operações do banco de dados Cloud Firestore
