@@ -36,6 +36,6 @@ lib/
 │   ├── login.dart  # Tela de login
 │   ├── cadastro.dart # Tela de cadastro de novas contas
 │   └── home.dart   # Painel com a listagem de tarefas
-└── services/
+└── servicos/
     ├── autenticacao.dart  # Lógica de login/cadastro no Firebase
     └── bancodedados.dart # Operações do banco de dados Cloud Firestore
